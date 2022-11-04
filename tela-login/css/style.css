@@ -1,0 +1,262 @@
+* {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+}
+.principal {
+    width: 100vw;
+    height: 100vh;
+/*    background: red;*/
+}
+.login-container-left {
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    position: relative;
+ animation: init-login .4s ease;
+
+}
+.btn-login {
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    padding: 15px;
+    border: none;
+    background: none;
+    color: white;
+    background: #FF6162;
+    cursor: pointer;
+    font-size: 12pt;
+    border-radius: 5px;
+    transition: transform .2s ease;
+}
+.btn-login:hover {
+    transform: translateY(-2px);
+}
+@keyframes init-login {
+    from {
+        transform: translateX(50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+.subtitle-login {
+    font-size: 12pt;
+}
+.link-criar {
+    color: #FF6162;
+    border-bottom: 1px solid #FF6162;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+input[type='text']:hover,
+input[type='password']:hover
+{
+/*    transform: translateY(-px);*/
+    transform: scale(1.02);
+}
+.check-senha {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    
+}
+.check-senha > label {
+    color: #c0c0c0;
+    min-width: 100px;
+    
+}
+
+.title-login {
+    color: #505050;
+    font-size: 20pt;
+    display: block;
+/*    background: red;*/
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.login-container-right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: url('https://burst.shopifycdn.com/photos/wrtiting-tools.jpg?width=1200&format=pjpg&exif=1&iptc=1') no-repeat;
+    background-size: cover;
+    top: 0%;
+    right: 0%;
+/*    background: */
+    
+}
+label {
+    color: white;
+    font-family: system-ui;
+    font-size: 14pt;
+    position: absolute;
+}
+.label-user {
+    top: 25%;
+    left: 17%;
+}
+.label-pass {
+    top: 45%;
+    left: 17%;
+}
+input.input-user {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    width: 70%;
+}
+input.input-password {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 70%;
+}
+input.input-user::placeholder,
+input.input-password::placeholder,
+input.input-user,
+input.input-password
+{
+    font-size: 14pt;
+    
+}
+input.input-user::placeholder,
+input.input-password::placeholder{
+    color:#c0c0c0;
+}
+input.input-user,
+input.input-password
+{
+    color: #FF6162;
+    
+}
+input[type='text'],
+input[type='password']{
+    padding: 20px;
+    border: none;
+/*    margin-top: 20px;*/
+    border-bottom: 2px solid #c0c0c0;
+    background: none;
+    transition: border-bottom-color, transform .5s;
+    
+    
+}
+.copy {
+    color: #505050;
+    font-size: 15pt;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+.prob {
+    color: #505050;
+    font-size: 15pt;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+input:focus {
+    outline: none;
+    border-bottom-color: #FF6162;
+/*    border: 1px solid red;*/
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.other-logins {
+/*    background: red;*/
+    width: 80%;
+    display: block;
+    border-top: 1px solid rgba(255,97,98,.3);
+    position: absolute;
+    top: 70%;
+    
+    left: 10%;
+    font-size: 35pt;
+    color: #c0c0c0;
+    text-align: center;
+    cursor: default;
+    
+}
+.other-logins > i {
+    margin-top: 15px;
+    transition: color, transform .6s;
+}
+.other-logins > i:hover {
+    color: #FF6162;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+.login-left {
+    position: absolute;
+    width: 80%;
+/*background: blue;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 0px 0px 10px 1px black;*/
+/*    border: 1px solid #e9ecef;*/
+    height: 50%;
+    padding: 20px;
+    left: 5%;
+    top: 22%;
+
+    
+}
+.login-right {
+    
+    position: absolute;
+    width: 40%;
+/*    background: blue;*/
+    height: 50%;
+    padding: 20px;
+    right: 5%;
+    top: 15%;
+    
+}
+
+@media (max-width: 890px) {
+    .login-container-right {
+        display: none;
+    }
+    .login-container-left {
+        width: 100%;
+    }
+    .prob {
+        
+        
+        left: 30%;
+    }
+    .copy {
+        left: 30%;
+    }
+    
+}
+@media (max-width: 508px){
+    .prob {
+        
+        
+        left: 10%;
+    }
+    .copy {
+        left: 10%;
+    }
+}
+@media (max-width: 380px){
+
+    .copy {
+        display: none;
+    }
+    .prob {
+        
+        
+        left: 5%;
+    }
+}
