@@ -6,4 +6,6 @@
 
 O Site está resposivo?
 > Sim, totalmente acessível na maioria dos dispositivos.
+
+
 ![Imagem Ilustrativa](imagem-da-tela-de-login.png)
