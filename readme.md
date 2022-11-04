@@ -6,4 +6,4 @@
 
 O Site está resposivo?
 > Sim, totalmente acessível na maioria dos dispositivos.
-> (https://myoctocat.com/assets/images/base-octocat.svg)
+![Imagem Ilustrativa](imagem-da-tela-de-login.png)
