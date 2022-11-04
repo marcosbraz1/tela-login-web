@@ -7,5 +7,7 @@
 O Site está resposivo?
 > Sim, totalmente acessível na maioria dos dispositivos.
 
+> Imagem ilustrativa:
 
-![Imagem Ilustrativa](imagem-da-tela-de-login.png)
+
+![Imagem Ilustrativa](imagem-telalogin.png)
