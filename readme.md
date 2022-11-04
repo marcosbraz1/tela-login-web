@@ -1,9 +1,9 @@
-# Tela de Login // Login screen
+## Tela de Login // Login screen
 
 
-## Tela de Login (Web) feito por mim (Marcos A. Braz)
 
+###### Tela de Login para Web feito em HTML e CSS Puros.
 
-## Feito em HTML e CSS Puro
-
-# Está responsivo.
+O Site está resposivo?
+> Sim, totalmente acessível na maioria dos dispositivos.
+> (https://myoctocat.com/assets/images/base-octocat.svg)
