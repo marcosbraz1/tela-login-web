@@ -11,3 +11,7 @@ O Site está resposivo?
 
 
 ![Imagem Ilustrativa](imagem-telalogin.png)
+
+## Créditos:
+* Brazz (Desenvolvedor Front/Back-End)
+* Whatsapp: +55 85 992746184
