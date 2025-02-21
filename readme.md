@@ -2,13 +2,7 @@
 
 
 
-###### Tela de Login para Web feito em HTML e CSS Puros.
-
-O Site está resposivo?
-> Sim, totalmente acessível na maioria dos dispositivos.
-
-> Imagem ilustrativa:
-
+###### Tela de Login para Web feito em HTML e CSS Puro.
 
 ![Imagem Ilustrativa](imagem-telalogin.png)
 
